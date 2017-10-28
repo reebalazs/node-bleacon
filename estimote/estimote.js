@@ -1,5 +1,6 @@
 var crypto = require('crypto');
 
+// XXX This is broken without the bignum module dependency.
 var bignum = require('bignum');
 var debug = require('debug')('estimote');
 
