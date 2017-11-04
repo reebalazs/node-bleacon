@@ -1,7 +1,9 @@
 var crypto = require('crypto');
 
 // XXX This is broken without the bignum module dependency.
-var bignum = require('bignum');
+// var bignum = require('bignum');
+var bignum;
+
 var debug = require('debug')('estimote');
 
 var NobleDevice = require('noble-device');
