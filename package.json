@@ -19,9 +19,9 @@
     "url": "https://github.com/sandeepmistry/node-bleacon/issues"
   },
   "dependencies": {
-    "bleno": "git+ssh://git@github.com/reebalazs/bleno.git#electron-win",
+    "bleno": "https://github.com/reebalazs/bleno.git#electron",
     "debug": "^2.2.0",
-    "noble": "git+ssh://git@github.com/reebalazs/noble.git#electron-win",
+    "noble": "https://github.com/reebalazs/noble.git#electron",
     "noble-device": "^1.1.0"
   },
   "devDependencies": {
